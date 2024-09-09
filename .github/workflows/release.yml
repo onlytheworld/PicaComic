@@ -70,12 +70,12 @@ jobs:
       #   with:
       #     name: code-coverage-report
       #     path: build/app/outputs/flutter-apk/*.apk
-      - uses: actions/download-artifact@v4
-        with:
-          name: macos-build.zip
-      - uses: actions/download-artifact@v4
-        with:
-          name: app-ios.ipa
+      # - uses: actions/download-artifact@v4
+      #   with:
+      #     name: macos-build.zip
+      # - uses: actions/download-artifact@v4
+      #   with:
+      #     name: app-ios.ipa
 
 
       - name: Release
@@ -84,7 +84,7 @@ jobs:
           tag_name: ${{ github.ref_name }}
           files: |
             build/app/outputs/flutter-apk/*.apk
-            app-ios.ipa
-            pica_comic.app
+            # app-ios.ipa
+            # pica_comic.app
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
