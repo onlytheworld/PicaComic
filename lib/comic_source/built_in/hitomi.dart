@@ -39,7 +39,12 @@ final hitomi = ComicSource.named(
     enableLanguageFilter: true,
   ),
   comicPageBuilder: (context, id, cover) {
-    return HitomiComicPage.fromLink(id);
+    return HitomiComicPage.fromLink(id, cover: cover);
+  },
+  getThumbnailLoadingConfig: (url) {
+    return {
+      "headers": {"User-Agent": webUA, "Referer": "https://hitomi.la/"},
+    };
   },
 );
 

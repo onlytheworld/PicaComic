@@ -4,9 +4,17 @@
 [![License](https://img.shields.io/github/license/wgh136/PicaComic)](https://github.com/wgh136/PicaComic/blob/master/LICENSE)
 [![Download](https://img.shields.io/github/v/release/wgh136/PicaComic)](https://github.com/wgh136/PicaComic/releases)
 [![stars](https://img.shields.io/github/stars/wgh136/PicaComic)](https://github.com/wgh136/PicaComic/stargazers)
-[![Telegram Discussion](https://img.shields.io/static/v1?label=Discussion&message=Telegram&color=blue&logo=telegram)](https://t.me/pica_group)
 
 A comic app with multiple sources built with flutter.
+
+## How to use
+
+1. Clone the repository
+```shell
+git clone https://github.com/wgh136/PicaComic
+```
+2. Install flutter: https://docs.flutter.dev/get-started/install
+3. Build Application: https://docs.flutter.dev/deployment
 
 ## Introduction
 
@@ -52,10 +60,3 @@ The image restructuring algorithm used to display jm images is from this project
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=EhTagTranslation&repo=Database)](https://github.com/EhTagTranslation/Database)
 
 The Chinese translation of the manga tags is from this project.
-
-## Screenshots
-
-<img src="screenshots/9.png" style="width: 400px"><img src="screenshots/10.png" style="width: 400px">
-
-<img src="screenshots/1.png" style="width: 400px"><img src="screenshots/2.png" style="width: 400px"><img src="screenshots/3.png" style="width: 400px"><img src="screenshots/4.png" style="width: 400px"><img src="screenshots/5.png" style="width: 400px"><img src="screenshots/6.png" style="width: 400px"><img src="screenshots/7.png" style="width: 400px">
-
