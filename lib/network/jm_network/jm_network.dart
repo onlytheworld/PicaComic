@@ -86,8 +86,8 @@ class JmNetwork {
     "https://www.jmeadpoolcdn.life",
     // "https://www.jmapiproxyxxx.one",
     // "https://www.jmfreedomproxy.xyz",
-    "https://18comic.vip",
-    "https://18comic-16promax.club"
+    "https://www.cdnxxx-proxy.org",
+    "https://www.cdnxxx-proxy.vip"
   ];
 
   String get baseUrl => urls[int.parse(appdata.settings[17])];
