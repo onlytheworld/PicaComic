@@ -84,8 +84,8 @@ class JmNetwork {
   static const urls = <String>[
     "https://www.jmeadpoolcdn.one",
     "https://www.jmeadpoolcdn.life",
-    "https://www.jmapiproxyxxx.one",
-    "https://www.jmfreedomproxy.xyz",
+    // "https://www.jmapiproxyxxx.one",
+    // "https://www.jmfreedomproxy.xyz",
     "https://18comic.vip",
     "https://18comic-16promax.club"
   ];
